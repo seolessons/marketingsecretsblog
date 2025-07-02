@@ -1,0 +1,440 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*hero*/
+.hero{
+    background-image: url(cosmos-earth-desktop.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+     min-height: 100vh;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+}
+
+
+.pageone{
+    margin: 80px;
+   
+}
+
+
+.home{
+     background-color: rgba(255, 255, 255, 0.337);
+     color: rgba(0, 0, 0, 0.942);
+     border-radius: 20px;
+}
+
+.home h1{
+   font-size: 50px;
+   padding-bottom: 30px;
+}
+
+.home p{
+  font-size: 25px;
+  margin-bottom: 50px;
+  padding-bottom: 20px;
+  
+}
+
+
+.btn{
+    text-align: center;
+
+}
+
+.btnn{
+    width: 100px;
+   border-radius: 20px;
+   height: 40px;
+    background-color: rgb(255, 33, 33);
+    color: rgba(238, 247, 255, 0.963);
+    font-size: 15px;
+    transition: 0.3s;
+}
+
+.btnn:hover{
+    background-color: rgb(255, 157, 0);
+}
+/*hero*/
+
+
+
+/*h2-1*/
+.marketing-novleri{
+    text-align: center;
+  
+}
+
+.marketing-novleri a{
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.942);;
+}
+
+.marketing-novleri h2{  
+    font-size: 35px; 
+
+}
+
+.highlight{
+    background-color:rgba(255, 255, 255, 0.337) ;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+/*h2-1*/
+
+
+
+
+
+/*cards*/
+
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    flex-wrap: wrap ;
+  padding-top: 40px;
+   padding-bottom: 50px;
+}
+
+.card{
+    background-color:  rgba(0, 0, 0, 0.659);
+    border-radius: 20px;
+    width: 200px;
+    height: 150px;
+    padding: 30px;
+    font-size: 20px;
+    color: #fff;
+    transition: 0.3s;
+    position: relative;
+    
+ 
+}
+
+.card span {
+  font-size: 14px;
+  display: block;
+  margin-top: 10px;
+  color: #c0c0c0;
+  font-weight: bold;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  background: rgba(255, 22, 22, 0.8);
+  
+}
+
+
+/*cards*/ 
+
+
+
+@media (max-width: 768px) {
+
+    .hero{
+        background-image:url(cosmos-earth-phone.webp);
+    }
+
+.home h1 {
+font-size: 23px;
+padding: 5px;
+}
+
+.home p{
+    font-size: 18px;
+    padding: 5px;
+}
+
+.highlight{
+    font-size: 22px;
+}
+
+.cards {
+    flex-direction: column;
+    gap: 20px;
+    
+  }
+
+  .card {
+    width: 250px;
+    height: 100px;
+    margin: 0 auto;
+  }
+  
+}
+
+/*hero*/
+
+
+
+
+
+/* navbar page */
+
+.navbarpage{
+  display: flex;
+   justify-content:space-between;
+   padding: 20px;
+  
+  
+}
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    background-color:  rgba(0, 0, 0, 0.659);
+   border-radius: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color:  rgba(235, 235, 235, 0.964);
+  font-size: 25px;
+  font-weight: bold;
+   transition: 0.5s;
+
+}
+
+nav ul li a:hover{
+    color: rgb(255, 140, 0);
+}
+
+.logo {
+    color:rgba(235, 235, 235, 0.964);
+    font-size: 25px;
+    font-weight: bold;
+      background-color:  rgba(0, 0, 0, 0.659);
+      border-radius: 10px;
+}
+
+
+
+
+
+@media (max-width: 768px){
+
+   .logo{
+    font-size: 25px;
+     height: 50px;
+     padding: 10px;
+   }
+
+
+   nav ul{
+    flex-direction: column;
+   margin-right: 20px;
+   }
+
+   nav ul li a{
+     font-size: 18px;
+     padding: 10px;
+   }
+
+}
+/* navbar page */
+
+
+
+
+
+
+/* seo nedir*/
+
+
+.herotwo{
+  background-image:url(planet-desktop-cosmos.webp);
+  background-position: cover;
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+}
+
+main{
+    margin-top: 50px;
+    padding: 20px;
+    
+}
+
+
+.main-title{
+    text-align: center;
+    margin-bottom: 70px;
+    font-style: italic;
+    color: rgb(47, 0, 255);
+}
+
+
+
+.box{
+    color: aliceblue;
+    background-color: rgba(47, 0, 255, 0.722);
+    border-radius: 20px;
+    width: 350px;
+    height: 150px;
+    text-align: center;
+    padding: 20px;
+    transition: 0.3s;
+    position: relative;
+      font-size: 14px;
+}
+
+.box1{
+    display: flex;
+   margin-bottom: 40px ;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+
+.box2{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+}
+
+.box:hover{
+   transform: translateY(-10px);
+  background: rgba(191, 17, 17, 0.8);
+  
+}
+
+
+
+@media (max-width: 768px) {
+
+  main{
+    font-size: 14px;
+}
+
+.box{
+    width: 350px;
+    height: 80px;
+    font-size: 12px;
+}
+ 
+}
+
+
+/* seo nedir*/
+
+
+
+
+
+
+
+/*services*/
+
+.herothree{
+   background-image: url(cosmos-earth-desktop.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+     min-height: 200vh;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+}
+
+
+.ptext {
+  background-color: #c0c0c075;
+  padding: 20px;
+  width: 80%;
+  margin: 40px auto; /* səhifənin ortasında yerləşir */
+  border-radius: 10px;
+  text-align: center; /* yazıları ortalayır */
+}
+.main-title2 {
+  padding-bottom: 20px;
+  font-size: 35px;
+}
+.ptext p {
+  font-size: 20px;
+  font-style: italic;
+}
+
+
+
+.platforms {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: #f9f9f95c; /* açıq boz fon */
+  border-radius: 12px;
+ 
+ }   
+
+
+
+.platforms h2 {
+  font-size: 24px;
+  color: #333;
+  margin-top: 25px;
+  margin-bottom: 30px;
+  border-left: 4px solid #4a90e2; /* mavi xətt */
+  padding-left: 12px;
+}
+
+.platforms p {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  background-color: #c9a1005e;
+  padding: 15px;
+  border-left: 3px solid #4a90e2;
+  border-radius: 6px;
+}
+
+
+
+
+@media (max-width: 768px){
+
+
+.ptext{
+width: 80%;
+}
+
+.main-title2 {
+  font-size: 25px;
+}
+.ptext p {
+  font-size: 18px;
+  
+}
+
+
+.platforms{
+background: none;
+
+}
+
+.platforms h2{
+font-size: 20px;
+
+}
+
+.platforms p{
+  color: rgb(0, 0, 0);
+line-height: 1.2;
+background-color: #ba95045e;
+}
+
+
+}
+/*services*/
