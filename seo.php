@@ -7,6 +7,8 @@
     <meta name="description" connect="Discover the most effective advanced SEO techniques to improve your website’s visibility, drive organic traffic, and stay ahead of competitors in 2025.">
     <meta name="keywords" content="Advanced SEO Techniques, SEO strategies, SEO optimization 2025, improve search ranking, advanced SEO, technical SEO, link building, on-page SEO, off-page SEO">
     <link rel="stylesheet" href="style.css">
+    <link rel="canonical" href="https://seolessons.github.io/marketingsecretsblog/seo.php">
+
 </head>
 <body>
     
