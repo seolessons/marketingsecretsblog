@@ -6,7 +6,7 @@
     <title>Social Media Marketing (SMM) Strategies for 2025 | Boost Your Online Presence</title>
     <meta name="description" connect="Discover effective Social Media Marketing (SMM) strategies to increase brand awareness, engage your audience, and grow your business on platforms like Facebook, Instagram, and TikTok in 2025.">
     <meta name="keywords" content="social media marketing, SMM strategies, social media tips, Facebook marketing, Instagram marketing, TikTok marketing, social media advertising, grow your business with SMM">
-
+    <link rel="canonical" href="https://seolessons.github.io/marketingsecretsblog/smm.php">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
