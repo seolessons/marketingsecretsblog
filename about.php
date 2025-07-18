@@ -6,6 +6,8 @@
     <title>About Us | Learn More About Our Digital Marketing Expertise</title>
 <meta name="description" content="Discover who we are and our passion for digital marketing. Learn about our journey, values, and commitment to helping businesses grow online." />
 <link rel="stylesheet" href="style.css">
+    <link rel="canonical" href="https://seolessons.github.io/marketingsecretsblog/about.php">
+
 </head>
 <body>
     
