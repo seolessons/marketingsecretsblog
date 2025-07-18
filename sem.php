@@ -7,6 +7,8 @@
     <meta name="description" connect="Discover powerful SEM strategies to drive targeted traffic, increase conversions, and improve your brand’s online presence through paid search advertising and expert optimization.">
     <meta name="keywords" connect="search engine marketing, SEM strategies, paid advertising, PPC campaigns, online visibility, Google Ads, Bing Ads, search ads">
     <link rel="stylesheet" href="style.css">
+    <link rel="canonical" href="https://seolessons.github.io/marketingsecretsblog/sem.php">
+
 </head>
 <body>
     
