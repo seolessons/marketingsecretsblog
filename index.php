@@ -6,6 +6,8 @@
     <title>What is Digital Marketing? | Complete Guide to Digital Marketing 2025</title>
      <meta name="description" content="Discover the main digital marketing types including SEO, SEM, and email marketing to boost your business in 2025. Learn effective strategies and tips today!">
      <link rel="stylesheet" href="style.css">
+    <link rel="canonical" href="https://seolessons.github.io/marketingsecretsblog/">
+
 </head>
 <body>
     
