@@ -6,6 +6,7 @@
     <title>Professional Marketing Services | Boost Your Business Growth</title>
 
 <meta name="description" content="Discover top marketing services including email marketing and content marketing to increase your brand awareness and sales. Tailored solutions for your business success.">
+<link rel="canonical" href="https://seolessons.github.io/marketingsecretsblog/services.php">
 
 <meta name="keywords" content="marketing services, email marketing, content marketing, digital marketing, business growth, marketing solutions">
 
