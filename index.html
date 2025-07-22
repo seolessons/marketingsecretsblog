@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What is Digital Marketing? | Complete Guide to Digital Marketing 2025</title>
+     <meta name="description" content="Discover the main digital marketing types including SEO, SEM, and email marketing to boost your business in 2025. Learn effective strategies and tips today!">
+     <link rel="stylesheet" href="style.css">
+     <link rel="canonical" href="https://seolessons.github.io/marketingsecretsblog/">
+</head>
+<body>
+    
+ <!-- Burada navbar əlavə ediləcək -->
+    <div id="navbar-container"></div>
+
+
+<main>
+
+<h1>Comprehensive Guide to Digital Marketing Types in 2025</h1>
+<p>Digital marketing plays a crucial role in growing modern businesses by connecting with customers online. It includes various types such as SEO, SEM, email marketing, social media marketing, and content marketing. Understanding these types helps businesses create effective strategies and increase their reach.</p>
+
+</main>
+
+
+<section>
+  <h2><a href="seo.php">SEO (Search Engine Optimization)</a></h2>
+  <p>SEO helps your website rank higher in search engine results. With the right strategies, organic traffic can increase significantly.</p>
+</section>
+
+<section>
+  <h2><a href="sem.php">SEM (Search Engine Marketing)</a></h2>
+  <p>SEM drives traffic to your site through paid advertisements. Effective campaigns can be created using platforms like Google Ads.</p>
+</section>
+
+<section>
+  <h2><a href="services.php">Email Marketing</a></h2>
+  <p>Email marketing allows you to connect directly with customers, increasing loyalty and promoting products or offers.</p>
+</section>
+
+<section>
+  <h2><a href="smm.php">Social Media Marketing (SMM)</a></h2>
+  <p>SMM is an ideal way to promote your brand and engage with users on social platforms like Facebook, Instagram, and TikTok.</p>
+</section>
+
+<section>
+  <h2><a href="services.php">Content Marketing</a></h2>
+  <p>Content marketing attracts audiences with valuable and engaging information, boosting brand trust and supporting SEO efforts.</p>
+</section>
+
+
+
+<div class="image1-container">
+    <img src="digital-marketing-analytics-graph.webp" alt="Digital marketing analytics with graphs and diagrams">
+</div>
+
+
+ <!-- footer -->
+
+<div id="footer-container"></div>
+
+
+  <script>
+    // Navbar yüklə
+    fetch('navbar.html')
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById('navbar-container').innerHTML = data;
+
+        const menuToggle = document.getElementById('menu-toggle');
+        const navbar = document.getElementById('navbar');
+
+        menuToggle.addEventListener('click', () => {
+          navbar.classList.toggle('active');
+        });
+      })
+      .catch(err => console.error('Navbar yüklənmədi:', err));
+
+    // Footer yüklə
+    fetch('footer.html')
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById('footer-container').innerHTML = data;
+      })
+      .catch(err => console.error('Footer yüklənmədi:', err));
+  </script>
+
+
+
+
+
+
+
+
+</body>
+</html>
