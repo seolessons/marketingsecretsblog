@@ -24,7 +24,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
     
  <!-- Burada navbar əlavə ediləcək -->
-    <div id="navbar-container"></div>
+   
 
 
 <main>
@@ -73,20 +73,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
   <script>
-    // Navbar yüklə
-    fetch('navbar.html')
-      .then(response => response.text())
-      .then(data => {
-        document.getElementById('navbar-container').innerHTML = data;
-
-        const menuToggle = document.getElementById('menu-toggle');
-        const navbar = document.getElementById('navbar');
-
-        menuToggle.addEventListener('click', () => {
-          navbar.classList.toggle('active');
-        });
-      })
-      .catch(err => console.error('Navbar yüklənmədi:', err));
+   
 
     // Footer yüklə
     fetch('footer.html')
@@ -106,3 +93,4 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 </body>
 </html>
+
