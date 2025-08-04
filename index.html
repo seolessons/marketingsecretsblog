@@ -78,8 +78,21 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <div id="footer-container"></div>
 
 
-  <script>
-   
+   <script>
+    // Navbar yüklə
+    fetch('navbar.html')
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById('navbar-container').innerHTML = data;
+
+        const menuToggle = document.getElementById('menu-toggle');
+        const navbar = document.getElementById('navbar');
+
+        menuToggle.addEventListener('click', () => {
+          navbar.classList.toggle('active');
+        });
+      })
+      .catch(err => console.error('Navbar yüklənmədi:', err));
 
     // Footer yüklə
     fetch('footer.html')
@@ -99,6 +112,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 </body>
 </html>
+
 
 
 
